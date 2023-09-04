@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding:  0px;
+        list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+  color:blueviolet;  
+}
+
+a:hover{
+    color: slateblue;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.my-button {
+    text-decoration: none;
+    background-color: #694CFF;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 10px;
+}
+
+.my-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-input {
+    padding: 10px; /* Añade un relleno para dar espacio al contenido */
+    border: 2px solid #ccc; /* Añade un borde con color gris claro */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    font-size: 16px; /* Ajusta el tamaño de fuente */
+    width: 100%; /* Ocupa todo el ancho disponible en su contenedor */
+}
+
+/* Cambia el estilo cuando el campo está enfocado */
+.custom-input:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando se enfoca */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade una sombra cuando se enfoca */
+}
+
+input[type="number"] {
+    background-color: #2A2F4A;
+    color: #FFFFFF;
+    padding: 10px; /* Agregar relleno para espaciar el contenido */
+    border-radius: 5px; /* Agregar esquinas redondeadas */
+    font-size: 16px; /* Ajustar el tamaño de fuente */
+    width: 50%; /* Ocupar todo el ancho disponible en su contenedor */
+}
+
+/* Cambiar el estilo cuando el campo está enfocado */
+input[type="number"]:focus {
+    border-color: #007bff; /* Cambiar el color del borde cuando se enfoca */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agregar una sombra cuando se enfoca */
+}
+
